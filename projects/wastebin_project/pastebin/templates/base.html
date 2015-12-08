@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+<html>
+    <head>
+        <title>w4573-61n</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/paste/new">w457361n</a>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/paste/new/">Paste</a></li>
+                        <li><a href="/paste/about/">About</a></li>
+                        <li><a href="/paste/list/">Recent Pastes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<!--
+        <h2><a href="/paste/new">{% templatetag openvariable %}&nbsp w4573-61n &nbsp{% templatetag closevariable %}</a></h2>
+-->
+        <div class="containerblock">
+        {% block content%}
+        {% endblock %}
+        </div>
+    </body>
+</html>

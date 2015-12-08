@@ -1,0 +1,129 @@
+body {
+    background-color: #000000; 
+    font-size: 1.3em   
+}
+
+h2 {
+  font-size: 3.2em;
+  text-align: center;
+  background-color: #000000;
+  color: #0088cc;
+  margin-top: 40px;
+  margin-bottom: 1px;
+  padding-top: 0px;
+  padding-bottom: 30px; 
+}
+
+h2 > a:hover {
+  color: #999999;
+  text-decoration: none;
+}
+
+h3 {
+  margin-top: 40px;
+  font-size: 2em;
+  color: #0088cc;
+  text-align: center;
+}
+
+h4 {
+  margin-top: 40px;
+  font-size: .75em;
+  text-align: center;
+  color: #666666;
+}
+
+.form {
+  color: #666666;
+  border: none;
+  margin-top: 80px;
+}
+
+.form > textarea {
+  color: #0088cc;
+  background-color: #000000;
+  border: 1px solid #222222;
+  resize: none;
+}
+
+.form > input {
+  color: #0088cc;
+  background-color: #000000;
+  border: 1px solid #222222;
+}
+
+
+.btn:hover {
+  color: #eeeeee;
+   
+}
+
+.containerblock {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  list-style: none;
+  color: #666666;
+  font-size: .6em;
+}
+
+li {
+  color: #666666;
+}
+
+a {
+  color: #0088cc;
+}
+
+a:hover {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+p {
+  color: #0088cc;
+}
+
+.gray {
+  color: #999999;
+}
+
+.small {
+  font-size: .75em;
+}
+
+pre {
+  color: #0088cc;
+  background-color: #000;
+  border: none;
+  font-size: .65em;
+}
+
+.navbar-nav {
+  margin-left: 15px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #0088cc;
+}
+
+.navbar-brand {
+  font-size: 1.75em;
+}
+
+.navbar-inverse .navbar-nav > .active
+a, .navbar-inverse .navbar-nav > .active
+a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: #222; 
+  color: #08c;
+}
+
+.putright {
+  text-align: right;
+}

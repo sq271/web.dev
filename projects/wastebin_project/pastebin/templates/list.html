@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+    
+    <h4>Latest Pastes</h4><br />    
+    <ul>
+        {% for item in list %}
+        <li><a href={{ item.get_absolute_url }}></li>
+        {{ item.title }}</a>&nbsp{{ item.owner }}&nbsp
+        {{ item.time }}&nbsp
+        <a href={{ item.get_absolute_url }}>{{ item.hash }}</a>
+        <br /><br />
+        {% endfor %}
+    </ul>
+
+{% endblock %}
