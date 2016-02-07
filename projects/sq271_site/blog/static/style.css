@@ -1,0 +1,182 @@
+
+body {
+  color: #434f69;
+  background-color: #000;
+  font-size: .9em;
+  text-align: left;
+}
+
+h1, h1 > a {
+  font-size: 1.25em;
+  text-align: left;
+  background-color: #000;
+  color: #434f69; 
+  margin-bottom: 2%;   
+}
+
+h1 > a:hover {
+  color: #34374f;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.25em;
+  color: #34374f;
+  text-align: left;
+}
+
+h3 {
+  font-size: 1em; 
+  color: #34374f;
+  text-align: left;
+}
+
+h4 {
+  font-size: 1em;
+  color: #34374f;
+  text-align: left;
+}
+
+h5 {
+  font-size: .75em;
+  color: #34374f;
+  text-align: left;
+}
+
+h6 {
+  font-size: .5em;
+  color: #101314;
+  text-align: left;
+}
+
+h6:hover {
+  font-size: .9em;
+  color: #34374f;
+}
+
+.form {
+  color: #34374f;
+  border: none;
+  margin-top: 20px;
+}
+
+.form > textarea {
+  color: #434f69;
+  background-color: #000000;
+  border: 0px solid #000;
+  resize: none;
+}
+
+.form > textarea:hover {
+  color: $434f69;
+  background-color: #000;
+  border: 1px solid #070809;
+  resize: none;
+}
+
+.form > input {
+  placeholder: #434f69;
+  color: #434f69; 
+  background-color: #000000;
+  border: 0px solid #070809;
+}
+
+.form > input:hover {
+  color: #434f69;
+  background-color: #000000;
+  border: 1px solid #070809;
+}
+
+.form > input.btn {
+  font-size: 1em;
+  color: #34374f;
+  border: 0px solid #000;
+}
+
+.form > input.btn:hover {
+  color: #434f69; 
+  font-size: 1.25em;
+  border: 0px solid #000;
+}
+
+.containerblock {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.navbar {
+  color: #34374f;
+  background-color: #000;
+  border: none;
+}
+.navbar-nav {
+  margin-left: 15px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #34374f;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: #434f69;
+  font-size: 1.5em;
+}
+
+
+.navbar-brand {
+  font-size: 1.25em;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #34374f;
+  background-color: #000;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #101314;
+  background-color: #000;
+}
+
+.navbar-inverse .navbar-nav > .active a {
+  background-color: #000;
+  color: #434f69;
+}
+
+.navbar-inverse .navbar-nav > .active a:hover {
+  color: #101314;
+  background-color: #000;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  color: #34374f;
+  background-color: #34374f;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+  color: #434f69;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle:focus {
+  color: #434f69;
+  background-color: transparent;
+}
+
+.navbar-collapse {
+  border-top: none;
+  box-shadow: none;
+}
+
+.post {
+  margin-top: 9%;
+}
+
+p {
+  color: #34374f;
+}

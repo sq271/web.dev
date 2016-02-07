@@ -1,0 +1,6 @@
+{% extends 'paste/main.html' %}
+
+{% block content %}
+    <h1><a href="{% url 'detail' deet.hash %}">{{ deet.title }}</a></h1> 
+    <p>{{ deet.body }}</p>
+{% endblock %}

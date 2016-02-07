@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<link rel='stylesheet' type='text/css' href="{% static 'bootstrap.min.css' %}" />
+<link rel='stylesheet' type='text/css' href="{% static 'style.css' %}" />
+<html>
+  <head>
+    <title>sq271</title>
+    <meta name='viewport' content='device-width, initial-scale=1, maximum-scale=1, user-scalable=no'>
+  </head>
+  <body>
+    <header>
+      <nav class='navbar navbar-inverse' role='navigation'>
+        <div class='container-fluid'>
+          <div class='navbar-header'>
+            <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#mynav'>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+            </button>
+            <a class='navbar-brand' href='/blog'>sq271</a>
+          </div>
+          <div class='collapse navbar-collapse' id='mynav'>
+            <ul class='nav navbar-nav'>
+              <li><a href='/blog'>blog</a></li>
+              <li class='active'><a href='/contact'>contact</a></li>
+              <li><a href='/paste'>paste</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class='containerblock'>
+      <h1>contact page</h1>
+      <p>who am i?</p>
+      <p>who do i need to be?</p>
+      <h6>who is gonna read this?</h6>
+    </div>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+  </body>
+</html>

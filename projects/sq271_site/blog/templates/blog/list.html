@@ -1,0 +1,12 @@
+{% extends "blog/main.html" %}
+{% load django_markdown %}
+
+{% block content %}
+    {% for post in list %}
+        <div class='post'>
+            <h1><a href="{% url 'detail' post.slug %}">{{ post.title }}</a></h1>
+            <h6>{{ post.timestamp }}</h6>
+            {{ post.body|markdown }}
+        </div>
+    {% endfor %}
+{% endblock %}
